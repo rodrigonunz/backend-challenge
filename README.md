@@ -14,9 +14,9 @@ A Api expõe a avaliação da senha com a premissa de que seja um novo usuario d
 
 ### Como executar
 
-> **__** cd /{diretorio do projeto}
-> **__** mvn clean install
-> **__** java -jar .\application\target\application-0.0.1-SNAPSHOT.jar
+> **_cd /{diretorio do projeto}_** 
+> **_mvn clean install_** 
+> **_java -jar .\application\target\application-0.0.1-SNAPSHOT.jar_** 
 
 ### Exemplo de requisição
 
