@@ -1,7 +1,7 @@
 # backend-challenge
 Projeto do desafio iti digital
 
-Aplicação construída na linguagem Java(11) utilizando a stack springboot e baseada no conceito de arquitetura hexagonal, onde podemos desacoplar componentes e acoplar novos componentes utilizando as interfaces Ports, e deixando a camada Domain completamente especialista nas regras de negócio, sendo possível tambem a inclusão de um novo componente port/adapter para a persistência de credenciais novas a algum serviço de pool de usuários.
+Aplicação construída na linguagem Java(11)-maven utilizando a stack springboot e baseada no conceito de arquitetura hexagonal, onde podemos desacoplar componentes e acoplar novos componentes utilizando as interfaces Ports, e deixando a camada Domain completamente especialista nas regras de negócio, sendo possível tambem a inclusão de um novo componente port/adapter para a persistência de credenciais novas a algum serviço de pool de usuários.
 
 A Api expõe a avaliação da senha com a premissa de que seja um novo usuario do sistema, no momento de sua criação, a Api valida se o valor digitado da senha condiz com as regras básicas da senha que são:
 - Nove ou mais caracteres
@@ -13,6 +13,7 @@ A Api expõe a avaliação da senha com a premissa de que seja um novo usuario d
 - Nota: Espaços em branco não devem ser considerados como caracteres válidos.
 
 ### Como executar
+É necessário ter o maven previamente instalado (https://maven.apache.org/)
 
 > **_cd /{diretorio do projeto}_** 
 
