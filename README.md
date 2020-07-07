@@ -3,7 +3,7 @@ Projeto do desafio iti digital
 
 Aplicação construída na linguagem Java(11)-maven utilizando a stack springboot e baseada no conceito de arquitetura hexagonal, onde podemos desacoplar componentes e acoplar novos componentes utilizando as interfaces Ports, e deixando a camada Domain completamente especialista nas regras de negócio, sendo possível tambem a inclusão de um novo componente port/adapter para a persistência de credenciais novas a algum serviço de pool de usuários.
 
-A Api expõe a avaliação da senha com a premissa de que seja um novo usuario do sistema, no momento de sua criação, a Api valida se o valor digitado da senha condiz com as regras básicas da senha que são:
+A Api expõe a avaliação (recurso: /credentials-eval) da senha com a premissa de que seja um novo usuario do sistema, no momento de sua criação, a Api valida se o valor digitado da senha condiz com as regras básicas da senha que são:
 - Nove ou mais caracteres
 - Ao menos 1 dígito
 - Ao menos 1 letra minúscula
